@@ -23,8 +23,11 @@
 .logo-container {
     display: grid;
     grid-template-columns: repeat(7, 40px);
-    grid-template-rows: 1;
+    grid-template-rows: 50px;
     grid-template-areas: 
     "S q u-1 u-2 g l e";
+    justify-content: center;
+    align-content: center;
+    margin-top: 150px;
 }
 
