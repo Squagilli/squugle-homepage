@@ -1,5 +1,30 @@
+.item-1 {
+    grid-area: S;
+}
+.item-2 {
+    grid-area: q;
+}
+.item-3 {
+    grid-area: u-1;
+}
+.item-4 {
+    grid-area: u-2;
+}
+.item-5 {
+    grid-area: g;
+}
+.item-6 {
+    grid-area: l;
+}
+.item-7 {
+    grid-area: e;
+}
+
 .logo-container {
     display: grid;
     grid-template-columns: repeat(7, 40px);
     grid-template-rows: 1;
+    grid-template-areas: 
+    "S q u-1 u-2 g l e";
 }
+
