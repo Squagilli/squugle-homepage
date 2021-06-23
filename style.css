@@ -58,21 +58,55 @@
 #letter-1, #letter-2, #letter-3, #letter-4, #letter-5, #letter-6, #letter-7 {
     font-family: 'Questrial', sans-serif;
     font-size: 150px;
-    flex-shrink: 1;
+    text-align: center;
+
+    padding: 10px;
+    margin: 10px;
+
+    /*display: flex;
+    flex-direction: row;
+    flex: 1 1 100%;
+    min-height: 0;*/
 }
 .flex-logo-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /*margin-top: 250px;
-    margin-bottom: 250px;
-    margin-left: 450px;
-    margin-right: 100px;*/
     position: fixed;
-    top:400px;
+    top:200px;
     left:500px;
     right:500px;
-    bottom:100%;
+    bottom:600px;
+    margin: 0 -5px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    width: 100vh;
+
 }
+body {
+    text-align: center;
+}
+form {
+    display: inline-block;
+    position: static;
+    margin-top: 500px;
+}
+
+input {
+    width: 350px;
+    height: 30px;
+}
+
+img {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+img:hover {
+    color: red;
+}
+
 
