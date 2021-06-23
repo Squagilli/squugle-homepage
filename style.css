@@ -1,4 +1,47 @@
+.letter-1 {
+    flex-grow: 1;
+    height: 100px;
+    background-color: red;
+} 
 
+.letter-2 {
+    flex-grow: 1;
+    height: 100px;
+    background-color: blue;
+}
+
+.letter-3 {
+    flex-grow: 1;
+    height: 100px;
+    background-color: green;
+} 
+
+.letter-4 {
+    flex-grow: 1;
+    height: 100px;
+    background-color: yellow;
+}
+
+.letter-5 {
+    flex-grow: 1;
+    height: 100px;
+    background-color: purple;
+}
+
+.letter-6 {
+    flex-grow: 1;
+    height: 100px;
+    background-color: pink;
+}
+
+.letter-7 {
+    flex-grow: 1;
+    height: 100px;
+    background-color: black;
+}
+.letter-1:hover, .letter-2:hover, .letter-3:hover, .letter-4:hover, .letter-5:hover, .letter-6:hover, .letter-7:hover  {
+    flex-grow: 4.3;
+}
 .flex-logo-container {
     display: flex;
     flex-direction: row;
