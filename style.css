@@ -1,22 +1,22 @@
-.item-1 {
+.letter-1 {
     grid-area: S;
 }
-.item-2 {
+.letter-2 {
     grid-area: q;
 }
-.item-3 {
+.letter-3 {
     grid-area: u-1;
 }
-.item-4 {
+.letter-4 {
     grid-area: u-2;
 }
-.item-5 {
+.letter-5 {
     grid-area: g;
 }
-.item-6 {
+.letter-6 {
     grid-area: l;
 }
-.item-7 {
+.letter-7 {
     grid-area: e;
 }
 
