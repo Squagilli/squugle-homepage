@@ -1,51 +1,74 @@
-.letter-1 {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+
+#letter-1 {
     flex-grow: 1;
-    height: 100px;
-    background-color: red;
+    height: 10px;
+    width: 10px;
+    text-align: center;
+    vertical-align: sub;
+}
+
+#letter-2 {
+    flex-grow: 1;
+    height: 10px;
+    width: 10px;
+    text-align: center;
+}
+
+#letter-3 {
+    flex-grow: 1;
+    height: 10px;
+    width: 10px;
+    text-align: center;
 } 
 
-.letter-2 {
+#letter-4 {
     flex-grow: 1;
-    height: 100px;
-    background-color: blue;
+    height: 10px;
+    width: 10px;
+    text-align: center;
 }
 
-.letter-3 {
+#letter-5 {
     flex-grow: 1;
-    height: 100px;
-    background-color: green;
-} 
-
-.letter-4 {
-    flex-grow: 1;
-    height: 100px;
-    background-color: yellow;
+    height: 10px;
+    width: 10px;
+    text-align: center;
 }
 
-.letter-5 {
+#letter-6 {
     flex-grow: 1;
-    height: 100px;
-    background-color: purple;
+    height: 10px;
+    width: 10px;
+    text-align: center;
 }
 
-.letter-6 {
+#letter-7 {
     flex-grow: 1;
-    height: 100px;
-    background-color: pink;
+    height: 10px;
+    width: 10px;
+    text-align: center;
 }
-
-.letter-7 {
-    flex-grow: 1;
-    height: 100px;
-    background-color: black;
+#letter-1:hover, #letter-2:hover, #letter-3:hover, #letter-4:hover, #letter-5:hover, #letter-6:hover, #letter-7:hover  {
+    color: blue;
+    font-size: 150px;
+    margin-top: -15px;
 }
-.letter-1:hover, .letter-2:hover, .letter-3:hover, .letter-4:hover, .letter-5:hover, .letter-6:hover, .letter-7:hover  {
-    flex-grow: 4.3;
+#letter-1, #letter-2, #letter-3, #letter-4, #letter-5, #letter-6, #letter-7 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 100px;
 }
 .flex-logo-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    margin-left: 450px;
+    margin-right: 100px;
+    padding: 10px;
+    height: 40px;
+    width: 1000px;
 }
 
