@@ -1,33 +1,8 @@
-.letter-1 {
-    grid-area: S;
-}
-.letter-2 {
-    grid-area: q;
-}
-.letter-3 {
-    grid-area: u-1;
-}
-.letter-4 {
-    grid-area: u-2;
-}
-.letter-5 {
-    grid-area: g;
-}
-.letter-6 {
-    grid-area: l;
-}
-.letter-7 {
-    grid-area: e;
-}
 
-.logo-container {
-    display: grid;
-    grid-template-columns: repeat(7, 40px);
-    grid-template-rows: 50px;
-    grid-template-areas: 
-    "S q u-1 u-2 g l e";
+.flex-logo-container {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-content: center;
     margin-top: 150px;
 }
 
