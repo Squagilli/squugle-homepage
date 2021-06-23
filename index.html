@@ -8,6 +8,11 @@
         <title>Squugle Search</title>
     </head>
     <body>
+        <ul id="nav-bar">
+            <li>
+                <a href="http://www.facebook.com/"><img style="border: 0; background: transparent" src="/images/outline_account_circle_black_24dp.png" alt=""></a>
+            </li>
+        </ul>
         <div class="flex-logo-container">
             <div id="letter-1" data-order="1">S</div> 
             <div id="letter-2" data-order="2">q</div>
@@ -17,11 +22,12 @@
             <div id="letter-6" data-order="6">l</div>
             <div id="letter-7" data-order="7">e</div>
         </div>
-        <form action="/form/submit" method="GET">
-            <input type="text" name="text" class="search" placeholder="The world's greatest search engine!">
-            <button type="submit" style="border: 0; background: transparent">
-                <image src="/images/2x/outline_search_black_24dp.png" height="30" width="31" alt="Search" />
-            </button>
-        </form>
+            <form action="/form/submit" method="GET">
+                <input type="text" name="text" class="search" placeholder="The world's greatest search engine!">
+                <button type="submit" style="border: 0; background: transparent">
+                    <a href="http://www.facebook.com/" id="search-button-input"><img style="border: 0; background: transparent" src="/images/2x/outline_search_black_24dp.png" alt=""></a>
+                    <!--<image id="search-button" src="/images/2x/outline_search_black_24dp.png" height="30" width="31" alt="Search" />-->
+                </button>
+            </form>
     </body>
 </html>
