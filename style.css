@@ -95,6 +95,7 @@ form {
     display: inline-block;
     position: static;
     margin-top: 500px;
+    margin-left: 100px;
 }
 
 input {
