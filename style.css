@@ -163,7 +163,98 @@ footer {
     text-decoration: none !important;
     color: blue;
 }
-
+.search-result-form {
+    margin-top: -30px;
+    padding-top: 1px;
+    margin-left: -11px;
+    margin-right: 700px;
+    position: static;
+}
+.search-result-title {
+    position: static;
+    margin-right: 1750px;
+    padding-left: 50px;
+    margin-top: 35px;
+    text-align: center;
+    width: 50px;
+    font-family: 'Questrial', sans-serif;
+}
+.search-result-title:hover {
+    color: blue;
+}
+#nav-bar-2 {
+    margin-top: -70px;
+    padding-bottom: 10px;
+    position: static;
+}
+.search-nav-2 {
+    background: #fff;
+    margin-top: 10px;
+    height: 200px;
+    padding-left: 243px;
+    position: relative;
+    z-index: 126;
+    white-space: nowrap;
+    color: #70757a;
+    font-size: 14px;
+    font-family: questrial,arial,sans-serif;
+}
+.search-nav-3 {
+    position: relative;
+    white-space: nowrap;
+    align-items: baseline;
+    display: flex;
+    -ms-flex-pack: justify;
+    float: left;
+    justify-content: left;
+    min-width: 132px;
+}
+.search-nav-4 {
+    display: block;
+}
+.search-nav-5 {
+    display: inline;
+    margin-left: 169px;
+    padding-right: -90px;
+}
+.snav-b-1 {
+    background: #1a73e8;
+    height: 3px;
+    margin-top: 19px;
+}
+.search-nav-8 {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 800px;
+    padding-right: -200px;
+    width: 10px;
+}
+.search-nav-9 {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 800px;
+    padding-right: 200px;
+    width: 169px;
+}
+.search-nav-button-1 {
+    text-align: top;
+    padding-bottom: -10px;
+}
+h3 {
+    text-align: left;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+p {
+    text-align: left;
+    margin-left: 250px;
+    font-family: questrial, sans-serif;
+}
+.result-title {
+    font-family: questrial, sans-serif;
+    text-decoration: underline !important;
+    color: blue;
+}
 /*Below is for responsiveness*/
 /*probably didn't have to paste the entire css again but I don't know what else to do*/
 @media (max-width: 600px) {
