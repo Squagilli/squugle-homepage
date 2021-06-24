@@ -178,6 +178,8 @@ footer {
     text-align: center;
     width: 50px;
     font-family: 'Questrial', sans-serif;
+    text-decoration: none !important; /*no idea why this doesn't work*/
+    color: black
 }
 .search-result-title:hover {
     color: blue;
@@ -254,6 +256,9 @@ p {
     font-family: questrial, sans-serif;
     text-decoration: underline !important;
     color: blue;
+}
+.search-title {
+    text-decoration: none !important;
 }
 /*Below is for responsiveness*/
 /*probably didn't have to paste the entire css again but I don't know what else to do*/
