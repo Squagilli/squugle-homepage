@@ -59,6 +59,10 @@ body {
     height: 30px;
     width: 31px;
 }
+.search-button .search-button-clickable {
+    border: 0;
+    background: transparent;
+}
 
 /* Styling for navbar & footer bar items */
 .nav-bar {
@@ -103,6 +107,8 @@ body {
     display: block;
     position: static;
     float: left;
+    padding-left: 1em;
+    padding-top: 1em;
 }
 #footer-link {
     text-decoration: none !important;
@@ -118,6 +124,10 @@ body {
     margin-left: -11px;
     margin-right: 700px;
     position: static;
+}
+.account-circle {
+    border: 0;
+    background: transparent;
 }
 
 /* Style for squugle logo on search result page */
