@@ -34,46 +34,41 @@
     flex-basis: auto;
     max-width: 100%;
     
-
-/* Various styles for items in the body */
 }
+/* Various styles for items in the body */
+
 body {
     text-align: center;
 }
-form {
+.main-search-form {
     display: inline-block;
     position: static;
     margin-top: 500px;
     margin-left: 300px;
 }
 
-input {
+.main-search-input {
     width: 350px;
     height: 30px;
 }
 
-#search-button-input {
+.search-button-input {
     position: relative;
     top: 20px;
     left: 10px;
     height: 30px;
     width: 31px;
-
-}
-
-img:hover {
-    color: red;
 }
 
 /* Styling for navbar & footer bar items */
-ul {
+.nav-bar {
     list-style-type: none;
     margin-right: 10px;
     margin-bottom: 5px;
     padding: 0;
   }
 
-li {
+.main-navbar-item {
     display: inline;
     float: right;
     padding: 10px;
@@ -96,7 +91,7 @@ li {
 .text-link:hover {
     color:blue;
 }
-footer {
+.main-footer-bar {
     margin-top: 300px;
     height: 20px;
     text-decoration: none !important;
@@ -203,12 +198,12 @@ footer {
 }
 
 /* Style for search results area */
-h3 {
+.result-title-1 {
     text-align: left;
     margin-left: 250px;
     margin-top: 10px;
 }
-p {
+.result-description {
     text-align: left;
     margin-left: 250px;
     font-family: questrial, sans-serif;
@@ -271,20 +266,6 @@ p {
         font-size: 150px;
         margin-top: -20px;
     }
-    #letter-1:hover, #letter-2:hover, #letter-3:hover, #letter-4:hover, #letter-5:hover, #letter-6:hover, #letter-7:hover  {
-        color: #0710FA;
-        font-size: 150px;
-        margin-top: -20px;
-    }
-    #letter-1, #letter-2, #letter-3, #letter-4, #letter-5, #letter-6, #letter-7 {
-        font-family: 'Questrial', sans-serif;
-        font-size: 150px;
-        text-align: center;
-        
-    
-        padding: 10px;
-        margin: 10px;
-    }
     .flex-logo-container {
         display: flex;
         flex-direction: row;
@@ -303,42 +284,41 @@ p {
         max-width: 100%;
         
     }
+    /* Various styles for items in the body */
+
     body {
         text-align: center;
     }
-    form {
+    .main-search-form {
         display: inline-block;
         position: static;
         margin-top: 500px;
         margin-left: 300px;
     }
-    
-    input {
+
+    .main-search-input {
         width: 350px;
         height: 30px;
     }
-    
-    #search-button-input {
+
+    .search-button-input {
         position: relative;
         top: 20px;
         left: 10px;
         height: 30px;
         width: 31px;
-    
     }
-    
-    img:hover {
-        color: red;
-    }
-    
-    ul {
+
+    /* Styling for navbar & footer bar items */
+
+    .nav-bar {
         list-style-type: none;
         margin-right: 10px;
         margin-bottom: 5px;
         padding: 0;
       }
     
-    li {
+    .main-navbar-item {
         display: inline;
         float: right;
         padding: 10px;
