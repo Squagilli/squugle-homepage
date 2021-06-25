@@ -69,16 +69,23 @@ body {
 }
 /* Styling for navbar & footer bar items */
 .nav-bar {
+    display: inline;
+    float: right;
     list-style-type: none;
     margin-right: 10px;
-    margin-bottom: 5px;
-    padding: 0;
+    margin-bottom: 50px;
+    padding-left: 3rem;
+    height: 10em;
+    max-width: 50em;
+    z-index: 1;
   }
 
 .main-navbar-item {
     display: inline;
     float: right;
-    padding: 10px;
+    position: fixed;
+    z-index: 200;
+
 }
 #account-btn {
     position: relative;
@@ -124,17 +131,20 @@ body {
     color: blue;
 }
 .search-result-form {
-    margin-top: -30px;
-    padding-top: 1px;
-    margin-left: -11px;
+    margin-top: -80px;
+    padding-top: -1px;
+    *margin-left: -11px;
     margin-right: 700px;
-    position: static;
+    position: relative;
+    width: 50em;
 }
 .account-circle .main-img {
     border: 0;
     background: transparent;
 }
-
+.srch-form {
+    max-width: 50em;
+}
 /* Style for squugle logo on search result page */
 .search-result-title {
     position: static;
@@ -161,7 +171,7 @@ body {
 .search-nav-2 {
     background: #fff;
     margin-top: 10px;
-    height: 200px;
+    height: 9em;
     padding-left: 243px;
     position: relative;
     z-index: 126;
@@ -169,6 +179,7 @@ body {
     color: #70757a;
     font-size: 14px;
     font-family: questrial,arial,sans-serif;
+    z-index: 1;;
 }
 .search-nav-3 {
     position: relative;
