@@ -6,18 +6,33 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+        <!-- Links above import external items -->
+
         <title>Squugle Search</title>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <title>Squugle Search results!</title>
+        
     </head>
     <body>
-        <a class="search-title" href="index.html"><h1 class="search-result-title">Squugle</h1></a>
+
+        <!-- Code below is using my own techniques to create navbar & search form -->
+        <!-- Without looking at google's page structure -->
+        <a class="search-title" href="index.html">
+            <h1 class="search-result-title">Squugle</h1>
+        </a>
         <ul id="nav-bar-2">
             <li>
-                <a href="search-results.html"><img style="border: 0; background: transparent" src="images/outline_account_circle_black_24dp.png" alt=""></a>
+                <a href="search-results.html">
+                    <img style="border: 0; background: transparent" 
+                    src="images/outline_account_circle_black_24dp.png" 
+                    alt="Account button">
+                </a>
             </li>
             <li>
-                <a href="search-results.html"><img style="border: 0; background: transparent" src="images/outline_apps_black_24dp.png" alt=""></a>
+                <a href="search-results.html">
+                    <img style="border: 0; background: transparent" 
+                    src="images/outline_apps_black_24dp.png" alt="">
+                </a>
             </li>
             <li>
                 <a class="text-link" href="search-results.html">Images</a>
@@ -27,18 +42,29 @@
             </li>
         </ul>
         <form class="search-result-form" action="search-results.html">
-            <input type="text" name="text" class="search" placeholder="The world's greatest search engine!">
+            <input type="text" name="text" 
+            class="search" placeholder="The world's greatest search engine!">
             <button type="" style="border: 0; background: transparent">
-                <a href="search-results.html" id="search-button-input" target="_blank"><img style="border: 0; background: transparent" src="images/2x/outline_search_black_24dp.png" rel="stylesheet" alt=""></a>
+                <a href="search-results.html" 
+                id="search-button-input" target="_blank">
+                <img style="border: 0; background: transparent" 
+                src="images/2x/outline_search_black_24dp.png" 
+                rel="stylesheet" alt="Search button"></a>
             </button>
         </form>
+
+        <!--Code below is trying to duplicate google's div construction for navbar -->
         <div class="search-nav-2">
             <div class="search-nav-3">
                 <div class="search-nav-4">
                     <div class="search-nav-5">
                         <div class="search-nav-6">
-                            <span class="search-nav-button-1" style="height:16px;width:16px;">
-                                <a href="search-results.html"><img style="border: 0; background: transparent" src="images/outline_cloud_circle_black_24dp.png" alt=""></a>
+                            <span class="search-nav-button-1" 
+                            style="height:16px;width:16px;">
+                                <a href="search-results.html">
+                                    <img style="border: 0; background: transparent" 
+                                    src="images/outline_cloud_circle_black_24dp.png" 
+                                    alt="Cloud circle"></a>
                             </span>
                             <div class="snav-b-1"></div>
                         </div>
@@ -47,8 +73,12 @@
                 <div class="search-nav-9">
                     <div class="search-nav-8">
                         <div class="search-nav-6">
-                            <span class="search-nav-button-1" style="height:16px;width:16px;">
-                                <a href="search-results.html"><img style="border: 0; background: transparent" src="images/outline_sentiment_very_satisfied_black_24dp.png" alt=""></a>
+                            <span class="search-nav-button-1" 
+                            style="height:16px;width:16px;">
+                                <a href="search-results.html">
+                                    <img style="border: 0; background: transparent" 
+                                    src="images/outline_sentiment_very_satisfied_black_24dp.png" 
+                                    alt="Happy face :)"></a>
                             </span>
                             <div class="snav-b-1"></div>
                         </div>
@@ -56,11 +86,16 @@
                 </div>
             </div>
         </div>
+
+        <!--Code below is for search result items -->
+        <!-- My own technique, no dev tools -->
         <div>
-            <a class="result-title" href="https://www.multivax.com/last_question.html"><h3>A Really Cool Story</h3></a>
+            <a class="result-title" href="https://www.multivax.com/last_question.html">
+                <h3>A Really Cool Story</h3></a>
         </div>
         <div>
-            <p>The only result you will get on this search engine. It's an interesting story.</p>
+            <p>The only result you will get on this search engine. 
+                It's an interesting story.</p>
         </div>
     </body>
 </html>

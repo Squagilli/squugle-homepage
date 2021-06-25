@@ -1,69 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
 
-
-#letter-1 {
+/* Logo styling */
+.letter-item {
     flex-grow: 1;
     height: 10px;
     width: 10px;
     text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-size: 150px;
+    padding: 10px;
+    margin: 10px;
 }
-
-#letter-2 {
-    flex-grow: 1;
-    height: 10px;
-    width: 10px;
-    text-align: center;
-    
-}
-
-#letter-3 {
-    flex-grow: 1;
-    height: 10px;
-    width: 10px;
-    text-align: center;
-} 
-
-#letter-4 {
-    flex-grow: 1;
-    height: 10px;
-    width: 10px;
-    text-align: center;
-}
-
-#letter-5 {
-    flex-grow: 1;
-    height: 10px;
-    width: 10px;
-    text-align: center;
-}
-
-#letter-6 {
-    flex-grow: 1;
-    height: 10px;
-    width: 10px;
-    text-align: center;
-}
-
-#letter-7 {
-    flex-grow: 1;
-    height: 10px;
-    width: 10px;
-    text-align: center;
-}
-#letter-1:hover, #letter-2:hover, #letter-3:hover, #letter-4:hover, #letter-5:hover, #letter-6:hover, #letter-7:hover  {
+.letter-item:hover {
     color: #0710FA;
     font-size: 150px;
     margin-top: -20px;
 }
-#letter-1, #letter-2, #letter-3, #letter-4, #letter-5, #letter-6, #letter-7 {
-    font-family: 'Questrial', sans-serif;
-    font-size: 150px;
-    text-align: center;
-    
 
-    padding: 10px;
-    margin: 10px;
-}
 .flex-logo-container {
     display: flex;
     flex-direction: row;
@@ -82,7 +35,7 @@
     max-width: 100%;
     
 
-
+/* Various styles for items in the body */
 }
 body {
     text-align: center;
@@ -112,6 +65,7 @@ img:hover {
     color: red;
 }
 
+/* Styling for navbar & footer bar items */
 ul {
     list-style-type: none;
     margin-right: 10px;
@@ -170,6 +124,8 @@ footer {
     margin-right: 700px;
     position: static;
 }
+
+/* Style for squugle logo on search result page */
 .search-result-title {
     position: static;
     margin-right: 1750px;
@@ -178,12 +134,15 @@ footer {
     text-align: center;
     width: 50px;
     font-family: 'Questrial', sans-serif;
-    text-decoration: none !important; /*no idea why this doesn't work*/
+    text-decoration: none !important;
     color: black
 }
 .search-result-title:hover {
     color: blue;
 }
+
+/* This mess is a result of me trying to copu google's navbar structure */
+/* A good learning experience */
 #nav-bar-2 {
     margin-top: -70px;
     padding-bottom: 10px;
@@ -242,6 +201,8 @@ footer {
     text-align: top;
     padding-bottom: -10px;
 }
+
+/* Style for search results area */
 h3 {
     text-align: left;
     margin-left: 250px;
@@ -260,8 +221,9 @@ p {
 .search-title {
     text-decoration: none !important;
 }
-/*Below is for responsiveness*/
-/*probably didn't have to paste the entire css again but I don't know what else to do*/
+
+/* Below is for responsiveness */
+/* probably didn't have to paste the entire css again but I don't know what else to do */
 @media (max-width: 600px) {
     .flex-logo-container {
         flex-direction: column;
@@ -294,54 +256,20 @@ p {
 }
 
 @media (min-width: 601px) {
-    #letter-1 {
+    .letter-item {
         flex-grow: 1;
         height: 10px;
         width: 10px;
         text-align: center;
+        font-family: 'Questrial', sans-serif;
+        font-size: 150px;
+        padding: 10px;
+        margin: 10px;
     }
-    
-    #letter-2 {
-        flex-grow: 1;
-        height: 10px;
-        width: 10px;
-        text-align: center;
-        
-    }
-    
-    #letter-3 {
-        flex-grow: 1;
-        height: 10px;
-        width: 10px;
-        text-align: center;
-    } 
-    
-    #letter-4 {
-        flex-grow: 1;
-        height: 10px;
-        width: 10px;
-        text-align: center;
-    }
-    
-    #letter-5 {
-        flex-grow: 1;
-        height: 10px;
-        width: 10px;
-        text-align: center;
-    }
-    
-    #letter-6 {
-        flex-grow: 1;
-        height: 10px;
-        width: 10px;
-        text-align: center;
-    }
-    
-    #letter-7 {
-        flex-grow: 1;
-        height: 10px;
-        width: 10px;
-        text-align: center;
+    .letter-item:hover {
+        color: #0710FA;
+        font-size: 150px;
+        margin-top: -20px;
     }
     #letter-1:hover, #letter-2:hover, #letter-3:hover, #letter-4:hover, #letter-5:hover, #letter-6:hover, #letter-7:hover  {
         color: #0710FA;
@@ -374,8 +302,6 @@ p {
         flex-basis: auto;
         max-width: 100%;
         
-    
-    
     }
     body {
         text-align: center;
