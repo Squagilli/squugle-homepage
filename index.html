@@ -8,76 +8,46 @@
         <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" 
         rel="stylesheet">
         <!-- Links above import external items -->
+
         <title>Squugle Search</title>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     </head>
     <body>
-
-        <!-- Below is for navbar construction -->
-        <ul class="nav-bar">
-            <li class="main-navbar-item">
-                <a href="search-results.html">
-                    <img class="account-circle"
-                    src="images/outline_account_circle_black_24dp.png" 
-                    alt="Account button">
-                </a>
-            </li>
-            <li class="main-navbar-item">
-                <a href="search-results.html">
-                    <img class="main-img" 
-                    src="images/outline_apps_black_24dp.png" alt="App button">
-                </a>
-            </li>
-            <li class="main-navbar-item">
-                <a class="text-link" href="search-results.html">Images</a>
-            </li>
-            <li class="main-navbar-item">
-                <a class="text-link" href="search-results.html">SqMail</a>
-            </li>
-        </ul>
-
-        <!-- Below is for logo construction -->
-        <div class="flex-logo-container">
-            <div class="letter-item" data-order="1">S</div> 
-            <div class="letter-item" data-order="2">q</div>
-            <div class="letter-item" data-order="3">u</div>
-            <div class="letter-item" data-order="4">u</div>
-            <div class="letter-item" data-order="5">g</div>
-            <div class="letter-item" data-order="6">l</div>
-            <div class="letter-item" data-order="7">e</div>
-        </div>
- 
-        <!-- Search form construction a -->
-            <form class="main-search-form" action="search-results.html">
-                <input class="main-search-input" type="text" name="text" 
-                class="search" placeholder="The world's greatest search engine!">
-                <button class="search-button-clickable"
-                    style="border: 0; background: transparent"> 
-                    <!-- figuring out why I can't style the above line in CSS -->
-                    
-                    <a href="search-results.html" 
-                    class="search-button-input" target="_blank">
-                    <img class="search-button"
-                    src="images/2x/outline_search_black_24dp.png" alt="">
-                    </a>
-                </button>
-            </form>
-
-        <!-- Footer bar construction -->
-        <footer class="main-footer-bar">
-            <ul class="footer-bar">
-                <li class="footer-bar-item">
-                    <a id="footer-link" href="search-results.html">About</a>
-                </li>
-                <li class="footer-bar-item">
-                    <a id="footer-link" href="search-results.html">Terms</a>
-                </li>
-                <li class="footer-bar-item">
-                    <a id="footer-link" href="search-results.html">Settings</a>
-                </li>
-
-            </ul>
-        </footer>
+        <nav class="main-nav-bar"> <!-- Top Navbar -->
+            <div class="menu">
+                <div class="main-nav-item" href="#">SqMail</a></div>
+                <div class="main-nav-item" href="#">Images</a></div>
+                <div class="main-nav-item" href="#">Apps</a></div>
+                <div class="main-nav-item" href="#">Account</a></div>
+            </div>
+        </nav>
+        
+        <main>
+            <section class="main-content"> <!-- Body area -->
+                <div class="logo-symbol-container">
+                    <div class="logo-symbol">
+                        
+                    </div>
+                </div>
+                <div class="main-content-item">
+                    <div class="main-logo">
+                    Squugle
+                    </div>
+                </div>
+                <div class="main-content-item">
+                    <input class="main-search-bar" type="text" placeholder="Search..">
+                </div>
+            </section>
+        </main>
+        <footer class="main-footer"> 
+                <div class="menu-footer">
+                    <div class="main-nav-item" href="#">SqMail</a></div>
+                    <div class="main-nav-item" href="#">Images</a></div>
+                    <div class="main-nav-item" href="#">Apps</a></div>
+                    <div class="main-nav-item" href="#">Account</a></div>
+                </div>
+            </nav>   
+        </footer>     <!-- Footer bar -->
     </body>
     
 </html>
