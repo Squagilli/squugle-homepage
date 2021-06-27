@@ -8,20 +8,20 @@ main, nav, section, footer{
     
 }
 main {
-    background: black;
+    background: white;
 }
 nav {
-    border: 1px solid #000000;
-    background: #7C807C;
+    /*border: 1px solid #000000;*/
+    background: #6E7680;
     
 }
 section {
-    background: black;
+    background: white;
     height: 70vh;
 }
 .main-footer {
-    border: 1px solid #000000;
-    background: #7C807C;
+    /*border: 1px solid #000000;*/
+    background: #6E7680;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
@@ -76,11 +76,10 @@ section {
     flex-grow: auto;
     font-size: 75px;
     font-family: questrial, sans-serif;
+    color: black;
 }
 .main-logo:hover {
     color: #7C807C;
-
-    font-size: 85px;
 }
 .main-search-bar {
     height: 2rem;
