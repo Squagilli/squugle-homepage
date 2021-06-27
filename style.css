@@ -1,6 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
 
-/* Logo styling */
+main, nav, section, footer{
+    margin: 0;
+    padding: 9px;
+    /*border: 1px solid #000000;*/
+    color: #ffffff;
+    
+}
+main {
+    background: black;
+}
+nav {
+    border: 1px solid #000000;
+    background: #7C807C;
+    
+}
+section {
+    background: black;
+    height: 70vh;
+}
+.main-footer {
+    border: 1px solid #000000;
+    background: #7C807C;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.main-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    max-height: 100vh;
 
+    padding: 1rem;
+}
 
+.menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
 
+    list-style: none;
+    text-decoration: none;
+}
+.main-nav-item {
+    text-decoration: none;
+    padding: 1rem;
+    flex-shrink: 1;
+    font-family: questrial, sans-serif;
+    color: black;
+}
+.main-nav-item:hover {
+    color: #FFFFFC;
+}
+
+.menu-footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+
+    list-style: none;
+    text-decoration: none;
+}
+
+.main-content-item {
+    align-self: auto;
+    padding: 1rem;
+}
+
+.main-logo {
+    height: 6rem;
+    text-align: center;
+    flex-grow: auto;
+    font-size: 75px;
+    font-family: questrial, sans-serif;
+}
+.main-logo:hover {
+    color: #7C807C;
+
+    font-size: 85px;
+}
+.main-search-bar {
+    height: 2rem;
+}
