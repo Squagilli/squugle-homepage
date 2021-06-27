@@ -32,7 +32,7 @@ section {
     justify-content: center;
     align-items: center;
     flex: 1;
-    max-height: 100vh;
+    max-height: 66vh;
 
     padding: 1rem;
 }
@@ -77,10 +77,53 @@ section {
     font-size: 75px;
     font-family: questrial, sans-serif;
     color: black;
+    animation-name: logo-letter-anim;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
 }
 .main-logo:hover {
     color: #7C807C;
 }
 .main-search-bar {
     height: 2rem;
+}
+.logo-symbol-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 1rem;
+    height: 10vh;
+    align-content: center;
+
+    align-items: flex-end;
+}
+.logo-symbol {
+    width: 0;
+    height: 0;
+    border-left: 115px solid transparent;
+    border-right: 115px solid transparent;
+    border-bottom: 115px solid #7C807C;
+    animation-name: logo-anim;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+
+    align-self: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+@keyframes logo-anim {
+    0%   {border-bottom: 115px solid red; left:0px; top:0px;}
+    25%  {border-bottom: 115px solid yellow; left:200px; top:0px;}
+    50%  {border-bottom: 115px solid blue; left:200px; top:200px;}
+    75%  {border-bottom: 115px solid green; left:0px; top:200px;}
+    100% {border-bottom: 115px solid red; left:0px; top:0px;}
+}
+@keyframes logo-letter-anim {
+    0%   {color: red; left:0px; top:0px;}
+    25%  {color: yellow; left:200px; top:0px;}
+    50%  {color: blue; left:200px; top:200px;}
+    75%  {color: green; left:0px; top:200px;}
+    100% {color: red; left:0px; top:0px;}
 }
