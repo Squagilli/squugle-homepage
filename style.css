@@ -6,7 +6,6 @@
     color: #ffffff;
 }
 .main-nav-bar {
-    /*background: #6E7680;*/
     background: rgb(241,241,239);
     background: linear-gradient(90deg, rgba(241,241,239,1) 0%, rgba(165,164,168,1) 100%, rgba(191,185,185,1) 100%);
     margin: 0;
@@ -20,7 +19,6 @@
     color: #ffffff;
 }
 .main-footer {
-    /*background: #6E7680;*/
     background: rgb(165,164,168);
     background: linear-gradient(90deg, rgba(165,164,168,1) 0%, rgba(191,185,185,1) 0%, rgba(241,241,239,1) 100%);
     display: flex;
